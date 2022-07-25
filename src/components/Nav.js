@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
-  const aboutAlert = () => {
+  const AboutAlert = () => {
     alert("此專案為練習React串接Web API，該頁面未完成");
   };
   return (
@@ -12,7 +12,7 @@ const Nav = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link onClick={aboutAlert} to="#">
+          <Link onClick={AboutAlert} to="#">
             About
           </Link>
         </li>
