@@ -51,7 +51,6 @@ const Homepage = () => {
 
   useEffect(() => {
     if (currentSearch === "") {
-      console.log("搜索框為空");
       search(intialURL);
     } else {
       search(searchURL);
