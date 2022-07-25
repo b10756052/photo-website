@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Picture from "../components/Picture";
 import Search from "../components/Search";
+import { useNavigate } from "react-router-dom";
 
 const Homepage = () => {
+  const navigate = useNavigate();
   const [input, setInput] = useState("");
   let [data, setData] = useState(null);
   let [page, setPage] = useState(1);
