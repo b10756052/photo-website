@@ -14,3 +14,12 @@
         color: white;
     }
 }
+
+@media screen and (max-width:500px) {
+    input {
+        width: 45%
+    }
+    button {
+        width: 30%;
+    }
+}
