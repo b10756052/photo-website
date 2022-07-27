@@ -8,6 +8,7 @@ body {
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-family: 'Noto Sans TC', sans-serif;
     font-family: 'Roboto', sans-serif;
+    background-color: rgba(130, 138, 160, 0.171);
 }
 
 a {
@@ -28,7 +29,8 @@ ul {
         padding: 0.25rem 0.5rem;
         font-size: 2rem;
         border: none;
-        background-color: rgb(73, 0, 73);
+        // background-color: rgb(73, 0, 73);
+        background-color: rgb(25, 68, 68);
         color: white;
         cursor: pointer;
     }
