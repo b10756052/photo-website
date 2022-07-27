@@ -36,6 +36,17 @@ ul {
     }
 }
 
+@media screen and (max-width:500px) {
+    .morePicture {
+        button {
+            width: 60%;
+            padding: 0.25rem 0.5rem;
+            font-size: 1.75rem;
+            cursor: pointer;
+        }
+    }
+}
+
 @import "./nav";
 @import "./search";
 @import "./footer";
