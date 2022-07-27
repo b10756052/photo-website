@@ -57,8 +57,6 @@ const Homepage = () => {
     }
   }, [currentSearch]);
 
-  // search(searchURL);
-
   return (
     <div style={{ minHeight: "100vh" }}>
       <Search
